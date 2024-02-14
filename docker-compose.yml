@@ -22,6 +22,7 @@ services:
         MYSQL_USER: wordpress
         MYSQL_PASSWORD: wordpress
         MYSQL_ROOT_PASSWORD: somewordpress
+        UPLOAD_LIMIT: 102400K
 
    wordpress:
      depends_on:
